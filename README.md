@@ -2,6 +2,12 @@
 
 A macOS menu bar app for controlling supported MIoT air purifiers directly over local Wi-Fi (miIO/MIoT protocol), without the vendor cloud and without the vendor's phone app.
 
+<p align="center">
+  <img src="docs/panel.png" width="260" alt="Panel">
+  <img src="docs/schedule.png" width="260" alt="Schedule">
+  <img src="docs/settings.png" width="290" alt="Settings">
+</p>
+
 - Panel: power, Auto/Sleep/Manual modes, PM2.5 with a live glow, fan level, filter life, screen brightness, sound, button lock.
 - Automations: a time schedule and a PM2.5 threshold (boost when the air gets worse, return to the previous mode when it clears). They run only while the Mac is awake.
 - Notifications: low filter life and device faults.
